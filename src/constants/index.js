@@ -5,6 +5,8 @@ import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.png";
+import project7 from "../assets/projects/project-7.png";
+
 
 
 export const HERO_CONTENT = `I am a dedicated Computer Science & Information Technology student with a strong foundation in software development 
@@ -76,6 +78,14 @@ export const PROJECTS = [
     links:"https://dayflow-abd43.web.app/"
   },
 
+  {
+    title: "Delhi Transport Corporation (DTC) - Automated Bus Scheduling System",
+    image: project7,
+    description:
+      "The DTC - Automated Bus Scheduling System is a hackathon project I developed to optimize route management. It automates scheduling based on demand, traffic, and real-time data, ensuring efficient fleet use and reduced wait times. Designed for scalability and automation, it enhances public transport reliability. 🚍💡",
+    technologies: ["HTML","CSS","React", "Firebase", "JavaScript"],
+    links:"https://dtc-bs-rm.vercel.app/"
+  },
   {
     title: "Mahaveer Interiors and Decorators",
     image: project2,
