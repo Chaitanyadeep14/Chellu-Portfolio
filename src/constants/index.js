@@ -4,21 +4,22 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.png";
 
 
-export const HERO_CONTENT = `I am a dedicated Computer Science & Information Technology student with a passion for software development and data analysis. 
-                            Through my academic journey, I have developed a strong foundation in programming languages like Python,C and Java, as well as web development technologies such as HTML, CSS, and Basics of JavaScript. 
-                            With hands-on experience in data analysis using tools like SQL and Excel, I am committed to applying my knowledge to create innovative solutions and drive progress in my field. 
-                            My goal is to leverage my expertise to make a meaningful impact and contribute to advancements that enhance both technology and user experiences.`;
+export const HERO_CONTENT = `I am a dedicated Computer Science & Information Technology student with a strong foundation in software development 
+                            and data analysis. Proficient in programming languages such as Python, C, and Java, I also have experience in web development
+                            using HTML, CSS, and basic JavaScript. Additionally, I have hands-on expertise in data analysis with SQL and Excel.
+                           Passionate about leveraging technology to drive innovation, I am eager to apply my skills in real-world applications, 
+                            contribute to cutting-edge solutions, and enhance user experiences through efficient and scalable development practices.`;
 
 export const ABOUT_TEXT = `
 
-I'm Chaitanya Deep Chellu, a Computer Science & Information Technology student at Reva University with a strong passion for 
-software development and data analysis. My academic journey has focused on programming languages like Python, C, and Java, 
-along with web technologies such as HTML, CSS, and JavaScript. I am proficient in SQL, Excel, and skilled in research, data analysis, 
-and project management. Some of my notable projects include a Netflix Clone page (HTML, CSS) , Personal Portfolio, DTC-Bus Scheduling & Route management System. 
-Outside of academics, I enjoy music, biking, movies, and reading. My ultimate goal is to become a Software Developer, 
-contributing to innovative solutions and technological advancements.`
+I’m Chaitanya Deep Chellu, a Computer Science & Information Technology student at Reva University, with a strong foundation in software development, web technologies, and data analysis. I have hands-on experience with Python, C, Java, and front-end technologies such as HTML, CSS, and JavaScript, along with expertise in SQL, Excel, research, and project management.
+
+I have worked on diverse projects, including a Netflix Clone, Personal Portfolio, DTC-Bus Scheduling & Route Management System, and website redesign and development for Ganga Cooling Solutions, Dev Creations, Mahaveer Interiors & Decorators, Sunshine Engineering Works, and Tridala Pharmaceuticals. Additionally, I have guided internship students in design and development, helping them refine their skills in web technologies and project execution.
+
+Beyond academics, I am passionate about music, biking, movies, and reading. My ultimate goal is to become a Software Developer, contributing to innovative solutions and technological advancements that enhance user experiences and business efficiencies.`
 export const EXPERIENCES = [
   {
     year: "2023 - 2024",
@@ -93,6 +94,15 @@ export const PROJECTS = [
     links:"https://devcreationsblr.com/"
   },
   
+  {
+    title: "Tridala Pharmaceuticals Pvt. Ltd.",
+    image: project6,
+    description:
+      "I collaborated with a partner in developing Tridala Pharmaceuticals' website, ensuring a responsive, user-friendly, and professional digital presence. Our focus was on showcasing the company's healthcare innovations while maintaining optimal performance, security, and accessibility.",
+    technologies: ["HTML","CSS","JavaScript","React+Vite"],
+    links:"https://tridalapharma.com/"
+  },
+
   {
     title: "Ganga Cooling Solutions",
     image: project4,
