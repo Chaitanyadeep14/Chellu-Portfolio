@@ -20,8 +20,8 @@ const Projects = () => {
                    <a href={project.links} target="_blank" rel="noopener noreferrer">
                    <img
                         src={project.image} 
-                        width={300}
-                        height={300}
+                        width={200}
+                        height={200}
                         alt={project.title}
                         className="mb-6 rounded"
                     /></a>
