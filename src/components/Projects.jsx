@@ -17,7 +17,8 @@ const Projects = () => {
                 initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 1 }}
                 className="w-full lg:w-1/4">
-                   <a href="https://dayflow-abd43.web.app/" target="_blank"> <img
+                   <a href={project.links} target="_blank" rel="noopener noreferrer">
+                   <img
                         src={project.image} 
                         width={200}
                         height={200}
@@ -31,7 +32,7 @@ const Projects = () => {
                 transition={{ duration: 1 }}
                 className="w-full max-w-xl lg:w-3/4">
                     <h6 className="mb-2 font-semibold">{project.title}</h6>
-                    <u><a className="mb-4 text-neutral-400" href="mahaveerin.com">{project.links}</a></u>
+                    <u><a className="mb-4 text-neutral-400" href={project.links} target="_blank" rel="noopener noreferrer">{project.links}</a></u>
                     <p className="mb-4 text-neutral-400">{project.description}</p>
                     {project.technologies.map((tech,index)=>(
                         <span key={index} className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900">

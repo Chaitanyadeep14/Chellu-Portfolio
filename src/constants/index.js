@@ -1,7 +1,10 @@
+import { IoChatboxEllipsesOutline } from "react-icons/io5";
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
-import project4 from "../assets/projects/project-4.jpg";
+import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
+
 
 export const HERO_CONTENT = `I am a dedicated Computer Science & Information Technology student with a passion for software development and data analysis. 
                             Through my academic journey, I have developed a strong foundation in programming languages like Python,C and Java, as well as web development technologies such as HTML, CSS, and Basics of JavaScript. 
@@ -78,7 +81,7 @@ export const PROJECTS = [
     description:
       "Designed and developed a responsive website for showcasing Mahaveer Interiors' portfolio, services, and client testimonials.",
     technologies: ["HTML","CSS","JavaScript"],
-    links:"mahaveerin.com"
+    links:"https://mahaveerin.com/"
   },
 
   {
@@ -87,9 +90,36 @@ export const PROJECTS = [
     description:
       "Created a professional website for Dev Creations and Solutions to showcase their affordable, high-quality services in design, printing, and merchandise for dynamic event and branding needs.",
     technologies: ["HTML","CSS","JavaScript"],
-    links:"devcreationsblr.com"
+    links:"https://devcreationsblr.com/"
   },
   
+  {
+    title: "Ganga Cooling Solutions",
+    image: project4,
+    description:
+      "I was involved in the complete redesign and development of the Ganga Cooling Solutions website, enhancing its user experience, responsiveness, and modern aesthetics. The project focused on showcasing their diverse product range while ensuring seamless navigation and performance.",
+    technologies: ["HTML","CSS","JavaScript"],
+    links:"https://www.gangacoolingsolutions.com/"
+  },
+
+  {
+    title: "Dev Creations Gifts",
+    image: project3,
+    description:
+      "I guided internship students in design and development at Dev Creations, mentoring them in UI/UX principles, web and app development, and creative design. My role focused on enhancing their technical skills while ensuring high-quality project execution.",
+    technologies: ["HTML","CSS","JavaScript","React","MongoDB"],
+    links:"https://www.devcreationsgifts.com/"
+  },
+
+  {
+    title: "Sunshine Engineering Works",
+    image: project5,
+    description:
+      "I developed the website for this premier die-making company, showcasing its expertise in precision die-casting solutions. The site highlights their advanced manufacturing capabilities, industry applications, and commitment to quality, innovation, and sustainability.",
+    technologies: ["HTML","CSS","JavaScript"],
+    links:"https://www.sunshinediemold.com/"
+  },
+
 ];
 
 export const CONTACT = {
