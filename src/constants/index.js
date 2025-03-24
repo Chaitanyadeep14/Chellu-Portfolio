@@ -24,6 +24,13 @@ I have worked on diverse projects, including a Netflix Clone, Personal Portfolio
 Beyond academics, I am passionate about music, biking, movies, and reading. My ultimate goal is to become a Software Developer, contributing to innovative solutions and technological advancements that enhance user experiences and business efficiencies.`
 export const EXPERIENCES = [
   {
+    year: "2024 - 2025",
+    score: 8.73,
+    sem: "V - Semester [B.Tech CSIT]",
+    description: "Gained expertise in Machine Learning, exploring algorithms and model development. Studied Computer Networks to understand data communication and network protocols. Learned Operating Systems concepts, including process management and memory allocation. Developed UI/UX designing skills to create user-friendly interfaces. Explored Web Technologies & Applications for front-end and back-end development. Understood Agile Software Development and DevOps practices for efficient software lifecycle management.",
+    technologies: ["Machine Learning", "Computer Networks", "Operating Systems", "UI/UX Designing", "Web Tech & Appl", "Agile Software Dev & DevOps"]
+  },  
+  {
     year: "2023 - 2024",
     score: 9.58,
     sem: "IV - Semester [B.Tech CSIT]",
